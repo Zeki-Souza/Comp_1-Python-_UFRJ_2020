@@ -1,0 +1,66 @@
+Cálculos Geométricos:
+
+1. Defina uma função que calcule a  ́area de um retângulo dados seus dois lados. Teste pelo menos para os
+seguintes pares de entrada:
+• 5 e 7; resposta esperada  ́e 35
+• 15 e 2; resposta esperada  ́e 30
+• 500 e 700; resposta esperada  ́e 350000
+• 5 e 0; resposta esperada  ́e 0
+
+2. Defina uma funcao que calcule a  ́area da superfıcie de um cubo que tem c por aresta.
+
+3. Defina uma funcao que calcule a  ́area da coroa circular (anel) formada por dois cırculos de raios r1 e r2
+(r1 > r2 e P i = 3.14). Teste pelo menos para os seguintes pares de entrada:
+• 2 e 1; resposta esperada  ́e 9.42
+• 15 e 5; resposta esperada  ́e 628
+• 100 e 0; resposta esperada  ́e 31400
+----------------------------------------------------------------------------------------------------------------
+Calculos Algebricos:
+
+4. Termine o desenvolvimento da funcao que calcula a media de dois numeros. Teste pelo menos para os
+seguintes pares de entrada:
+• - 5 e 7;
+• 2 e -2;
+• 5 e 5;
+• 3 e 4;
+• 3.0 e 4.0;
+
+5. Defina uma funcao que calcule a ordenada de uma funcao de segundo grau dados os parâmetros a, b, c
+e a abscissa.
+Observacao: Nao  ́e procurar as ra ́ızes de uma equacao de segundo grau! E so calcular o valor do resultado
+de uma funcao representada por um polinômio do segundo grau para um dado x (a abscissa).
+
+6. Defina uma funcao que calcule a media ponderada de dois numeros com os respectivos pesos.
+Observacao: Nao estamos especificando no enunciado a ordem em que as informacoes de entrada vao
+ser fornecidas. Você é livre para decidir, mas não deixe de explicar qual ́e essa ordem na descricao da
+funcao.
+
+7. Chamamos de erro de uma aproximacao, a diferena entre essa aproximacao e o valor que tentamos
+aproximar. No caso de uma PG infinita com razao 0 ≤ q < 1, podemos somar alguns termos da PG e
+assumir que ja que esses termos estao tendendo a zero, podemos parar em algum momento e considerar
+que o resultado obtido  ́e uma aproximacao da soma de todos os elementos da PG. Quanto mais termos
+somarmos, melhor a aproximacao, ou seja, menor o erro. Defina uma funcao que calcule o erro entre o
+valor da soma de uma PG infinita a partir de 1.0 e a soma dos n primeiros termos dessa PG. A soma
+dos termos de uma PG  ́e 1/(1 − q), onde q  ́e a razao e 0 ≤ q < 1. Deixamos para você a tarefa
+de lembrar a fómula da soma do n primeiros termos.
+----------------------------------------------------------------------------------------------------------------
+Cáculos Aplicados
+
+8. Defina uma função que, dado o valor da conta de um restaurante, calcule a gorjeta do garçom,
+considerando 10% do valor da conta.
+
+9. Defina uma nova função que, dado o valor da conta de um restaurante e a porcentagem exigida pela
+legislação  para a gorjeta, calcule o valor dessa gorjeta.
+Lembre-se de incluir na descri ̧c ̃ao da fun ̧c ̃ao como essa porcentagem deve ser informada pelo usuário.
+Por exemplo: 10%  ́e 10 ou 0.1?
+
+10. Defina uma função que calcule o saldo final de uma conta, dado o saldo inicial, o número de meses e a
+taxa de juros mensal (juros simples).
+
+Saldo Final = Saldo Inicial (1 + juros.meses)
+
+11. Defina uma função que calcule a distância que a correnteza arrasta um barco que atravessa um rio.
+São conhecidas: a velocidade da correnteza, a largura do rio e a velocidade do barco perpendicular `á
+correnteza. Isso! Você terá de pensar na soluução do problema na Física antes de pensar em começar a programar.
+
+
