@@ -1,0 +1,43 @@
+Machine Teaching Lista 03 – Tipos de Dados, Strings, Estrutura Condicional
+
+1) Positivo, Negativo ou Zero:
+Faça uma função chamada PosNegZero que determina se um número inteiro X passado como parâmetro é positivo,
+negativo ou zero. O valor de retorno da função deve ser uma dentre as strings “X e positivo”, “X e negativo” ou “X e zero”.
+
+2)Futebol:
+ Questão OBI (Olimpíada Brasileira de Informática - 2012, Fase 1, Nível Júnior) - (Campeonato)
+ 
+ Dois times, Cormengo e Flaminthians, participam de um campeonato de futebol,
+ juntamente com outros times. Cada vitória conta três pontos, cada empate um ponto. Fica melhor
+ classificado no campeonato um time que tenha mais pontos. Em caso de empate no número de pontos, fica melhor classificado
+ o time que tiver maior saldo de gols. Se o número de pontos e o saldo de gols forem os mesmos para os dois times então os 
+ dois times estão empatados no campeonato. Faça uma função definida por classificacao(Cv, Ce, Cs, Fv, Fe, Fs). 
+ Dados os números de vitórias e empates, e os saldos de gols dos dois times, sua tarefa é determinar qual dos dois está melhor classificado,
+ ou se eles estão empatados no campeonato.
+ 
+3)Aviões de Papel:
+Questão OBI (Olimpíada Brasileira de Informática - 2009, Fase 1, Nível Júnior) - (Aviões de Papel)
+
+Para descontrair os alunos após as provas da OBI, a Diretora da escola organizou um campeonato de aviões de papel.
+Cada aluno participante receberá uma certa quantidade de folhas de um papel especial para fazer os seus modelos de aviões.
+A quantidade de folhas que cada aluno deverá receber ainda não foi determinada: ela será decidida pelos juízes do campeonato.
+A diretora convidou, para atuarem como juízes, engenheiros da Embraer, uma das mais bem sucedidas empresas brasileiras,
+que vende aviões com tecnologia brasileira no mundo todo. O campeonato está programado para começar logo após a prova da OBI,
+mas os juízes ainda não chegaram à escola. A diretora está aflita, pois comprou uma boa quantidade de folhas de papel especial,
+mas não sabe se a quantidade comprada vai ser suficiente. Considere, por exemplo, que a Diretora comprou 100 folhas de papel especial,
+e que há 33 competidores. Se os juízes decidirem que cada competidor tem direito a três folhas de papel, a quantidade comprada pela diretora
+é suficiente. Mas se os juízes decidirem que cada competidor tem direito a quatro folhas, a quantidade comprada pela diretora não seria suficiente.
+Você deve escrever uma função definida por avioes(competidores, papelcomprado, papelcompetidor) que, dados o número de competidores,
+o número de folhas de papel especial compradas pela Diretora e o número de folhas que cada competidor deve receber,
+determine se o número de folhas comprado pela Diretora é suficiente.
+
+Entrada: Os parâmetros de entrada da função são três números inteiros representando respectivamente o número de competidores,
+a quantidade de folhas de papel especial compradas pela Diretora e a quantidade de folhas de papel especial que cada competidor deve receber.
+
+Saída: A sua função deve retornar 'Suficiente' se a quantidade de folhas compradas pela Diretora for suficiente, ou 'Insuficiente' caso contrário.
+
+Exemplos: Entrada: 10,100,10 Saída: 'Suficiente'
+Entrada: 10,90,10 Saída: 'Insuficiente'
+Entrada: 5,40,2 Saída: 'Suficiente
+
+
