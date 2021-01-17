@@ -1,0 +1,75 @@
+Machine Teaching Lista 09 – Laços aninhados e matrizes
+
+1)Matriz Quadrada:
+Faça uma função booleana chamada ehquadrada para identificar se uma matriz é quadrada. 
+
+Observação: uma matriz vazia (sem nenhuma linha nem coluna) não é considerada quadrada.
+--------------------------------
+
+2)Buscando na Matriz:
+Faça uma função definida por conta_numero(numero, matriz) que dado um número inteiro e uma matriz de inteiros de tamanho qualquer,
+conta e retorna quantas vezes aquele número aparece na matriz.
+--------------------------------
+
+3)Média da Matriz:
+Faça uma função chamada media que dada uma matriz de inteiros não vazia, retorna a média de todos os números da matriz.
+Retorne seu resultado com somente duas casa decimais utilizando a função [round(número, 2)].
+--------------------------------
+
+4)Melhor Volta:
+Uma pista de Kart permite 10 voltas para cada um dos 6 corredores.
+Faça uma função chamada melhor_volta que receba como entrada uma matriz 6 x 10 com os tempos em segundos dos corredores em cada volta.
+
+A função deve retornar uma tupla informando: De quem foi a melhor volta da prova, com qual tempo e em que volta.
+Assuma que os corredores tem tempos diferentes. 
+(dica: use a função [min]).
+
+Obs: use números de 1 a 6 para os corredores e de 1 a 10 para as voltas (não esqueça que em Python os índices começam de 0)
+--------------------------------
+
+5)Busca de Funcionários:
+Suponha que os dados de funcionários de uma empresa sejam armazenados em uma matriz como a do exemplo a seguir:
+
+("AdalbertoFerreira"  "566" "Contabilidade" "(21)84564 - 5248")
+("JulianaVasconcelos" "465"      "RH"       "(21)3555 - 4552" ) 
+(   "FáviaAmorim"     "565" "Contabilidade" "(21)2134 - 4845" )
+
+Cada linha da matriz tem quatro entradas, representando as informações referentes
+a nome, registro, setor e telefone de um funcionário, nesta ordem.
+O número de linhas depende da quantidade de funcionários.
+Todas as entradas da matriz estão em formato string.
+
+Escreva uma função chamada busca que receba uma matriz como a do exemplo e faça uma busca por setor, ou seja,
+dado um nome de um setor da empresa, a função retorna os dados de todos os funcionários daquele setor. Por exemplo:
+
+>>> busca("Contabilidade", matriz)
+
+>>> [[‘Adalberto Ferreira’, ‘566’, ‘(21)84564-5248’],[‘Flavia Amorim’, ‘465’, ‘(21)2134-4845']]
+
+Se nenhum registro for encontrado, a função deverá retornar uma lista vazia.
+--------------------------------
+
+6)Algoritimos de Busca:
+Insertion sort, ou ordenação por inserção, é um simples algoritmo de ordenação,
+eficiente quando aplicado a um pequeno número de elementos.
+
+Em termos gerais, ele percorre um vetor de elementos da esquerda para a direita e à medida que avança vai deixando os elementos mais à esquerda ordenados.
+O algoritmo de inserção funciona da mesma maneira com que muitas pessoas ordenam cartas em um jogo de baralho (fonte: wikipedia)
+
+Não é um método muito eficiente porém sua implementação é simples: supondo que queremos ordenar uma lista de números em ordem crescente.
+Inicialmente verificamos se o segundo elemento da lista é menor que o primeiro. Caso seja, trocamos eles de posição.
+Como à esquerda do segundo elemento da lista, só temos o primeiro elemento, nada mais precisa ser feito.
+Passamos então para o terceiro elemento da lista.
+
+Temos que compará-lo com o segundo elemento e trocá-los de posição caso o terceiro seja menor.
+Caso tal troca seja feita, devemos comparar o novo valor que está na segunda posição com o valor da primeira,
+trocando eles de lugar quando for necessário. Se o terceiro elemento não for trocado com o segundo,
+isso indica que toda a parte inicial da lista (do primeiro ao terceiro elementos) já está ordenada,
+e devemos portanto passar para o quarto elemento. Este processo vai se repetindo até atingirmos o último elemento da lista.
+
+Crie uma função chamada sorted que recebe uma lista como entrada e retorna essa lista ordenada pelo método de inserção.
+Não use a função sort para listas.
+
+Para entender melhor a idéia, assista aos vídeos:
+https://www.youtube.com/watch?v=ROalU379l3U
+https://youtu.be/-Z00it6Nkz8
