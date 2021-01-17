@@ -1,0 +1,53 @@
+Machine Teaching Lista 08 – Estrutura de repetição iteradora: for
+
+1)Soma de números Ímpares:
+Faça uma função chamada soma_impar que retorne a soma dos n primeiros números ímpares,
+onde n é um inteiro passado como parâmetro
+--------------------------------
+
+2)Soma Fatorial:
+Faça uma função chamada soma_fatorial()
+que calcule a soma dos fatoriais dos números inteiros de 1 a 10.
+--------------------------------
+
+3)Divisores:
+Faça uma função chamada divisores que conte quantos divisores um número tem.
+Este número será passado como entrada.
+
+Exemplo: Se o número for 10, os divisores são: 1, 2, 5 e 10; total de 4 divisores.
+--------------------------------
+
+4)Números Primos:
+Faça uma função chamada primo que dado um número inteiro positivo,
+verifique se este número é primo ou não. Retorne um valor booleano.
+--------------------------------
+
+5)Soma H:
+Sendo
+
+H = 1 + 1/2 + 1/3 + 1/4 + ... + 1/N
+
+Faça uma função chamada soma_h para calcular e retornar o valor H com N termos onde N é inteiro e dado com entrada.
+Retorne seu resultado somente com 2 casas decimais, utilizando a função [round(número, 2)].
+--------------------------------
+
+6)Soma Esquisita:
+Faça uma função chamada soma que calcule a seguinte soma: 
+
+S = 10/1! - 9/2! + 8/3! - 7/4! + ... 1/10!
+
+Retorne seu resultado somente com 2 casas decimais, utilizando a função [ round(número, 2)].
+--------------------------------
+
+7)Língua do P:
+Faça uma função chamada lingua_p que receba como parâmetro uma palavra (em português),
+e retorne esta mesma palavra traduzida para a língua do P. Uma palavra foi traduzida para a língua do P quando,
+após cada vogal da palavra original, é inserida a sequência de letras 'p' mais a vogal original.
+
+A resposta deve ignorar a diferença entre minúsculas e maiúsculas e retornar a palavra traduzida toda em minúsculas.
+
+Por exemplo:
+
+exemplo → epexepemplopo
+entao → epentapaopo
+Caderno → capadepernopo
