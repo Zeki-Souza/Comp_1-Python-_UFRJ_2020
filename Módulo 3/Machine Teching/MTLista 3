@@ -3,6 +3,7 @@ Machine Teaching Lista 03 – Tipos de Dados, Strings, Estrutura Condicional
 1) Positivo, Negativo ou Zero:
 Faça uma função chamada PosNegZero que determina se um número inteiro X passado como parâmetro é positivo,
 negativo ou zero. O valor de retorno da função deve ser uma dentre as strings “X e positivo”, “X e negativo” ou “X e zero”.
+--------------------------------
 
 2)Futebol:
  Questão OBI (Olimpíada Brasileira de Informática - 2012, Fase 1, Nível Júnior) - (Campeonato)
@@ -14,6 +15,7 @@ negativo ou zero. O valor de retorno da função deve ser uma dentre as strings 
  dois times estão empatados no campeonato. Faça uma função definida por classificacao(Cv, Ce, Cs, Fv, Fe, Fs). 
  Dados os números de vitórias e empates, e os saldos de gols dos dois times, sua tarefa é determinar qual dos dois está melhor classificado,
  ou se eles estão empatados no campeonato.
+ --------------------------------
  
 3)Aviões de Papel:
 Questão OBI (Olimpíada Brasileira de Informática - 2009, Fase 1, Nível Júnior) - (Aviões de Papel)
