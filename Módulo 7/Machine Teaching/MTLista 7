@@ -1,0 +1,54 @@
+Machine Teaching Lista 07 – Estrutura de repetição com teste de parada: While
+
+1)Filtra Múltiplos:
+Faça uma função chamada filtraMultiplos para filtrar os múltiplos de um número n.
+Sua função deve receber como entrada uma lista de números e um número,
+e retornar outra lista contendo todos os elementos da lista original que forem divisíveis por n.
+--------------------------------
+
+2)Consoantes em Maiúsculas:
+Faça uma função chamada uppCons que receba como entrada uma frase e retorne a frase com todas as suas consoantes em maiúsculas
+(e os demais caracteres exatamente como estavam na frase original).
+--------------------------------
+
+3)Posição da Letra:
+Faça uma função chamada posLetra que recebe como entrada uma string, uma letra, e um número que indica a ocorrência desejada da letra
+(1 para primeira ocorrência, 2 para segunda, etc).
+Sua função deve retornar em que posição da string aquela ocorrência da letra está.
+
+Caso exista menos ocorrências da letra do que a ocorrência pedida, a função deveretornar -1.
+
+Exemplo:
+>>> posLetra("mariana come banana", 'a', 3)
+6
+(posição da terceira ocorrência da letra 'a' na string dada)
+--------------------------------
+
+4)Repetidos:
+Faça uma função chamada repetidos que receba como entrada uma lista de números,
+e retorne o número de vezes que um elemento da lista é igual ao elemento anterior.
+
+Exemplo: repetidos([1,4,3,3,2,3,3,3,3,5,4,6,6,7,6,8,8,7]) Resposta: 6.
+--------------------------------
+
+5)Fatorial:
+Faça uma função chamada fatorial que dado um número, calcule o fatorial deste número.
+(Não usar a função factorial do módulo math)
+--------------------------------
+
+6)Peça Perdida:
+Questão OBI (Olimpíada Brasileira de Informática - OBI2007, Fase 1, Nível 1) - (Peça Perdida)
+
+Joãozinho adora quebra-cabeças, essa é sua brincadeira favorita. O grande problema, porém, é que às vezes o jogo vem com uma peça faltando.
+Isso irrita bastante o pobre menino, que tem de descobrir qual peça está faltando e solicitar uma peça de reposição ao fabricante do jogo.
+Sabendo que o quebra-cabeças tem N peças, numeradas de 1 a N e que exatamente uma está faltando, ajude Joãozinho a saber qual peça ele tem de pedir.
+
+Escreva uma função chamada faltante que, dada uma lista com N − 1 inteiros numerados de 1 a N, descubra qual número inteiro deste intervalo está faltando.
+
+Entrada: O parâmetro de entrada é uma lista L de tamanho N − 1 contendo números inteiros (não repetidos) de 1 a N.
+Saída: A sua função deve retornar o número inteiro x que pertence ao intervalo [1, N] mas que não pertence a lista de entrada L.
+Exemplos:
+
+Entrada: [3,1]; Saída: 2
+Entrada: [1,2,3,5] ; Saída: 4
+Entrada: [2,4,3] ; Saída: 1
